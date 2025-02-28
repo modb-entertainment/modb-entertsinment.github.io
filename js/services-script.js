@@ -29,7 +29,7 @@ function showServiceComments(element, service) {
     (commentsData[service] || []).map(comment => `<li>${comment}</li>`).join('') +
     "</ul>";
   commentsDiv.innerHTML = commentsHTML;
-  void commentsDiv.offsetWidth; // force reflow to restart transition
+  void commentsDiv.offsetWidth;
   commentsDiv.classList.add('show');
 }
 
