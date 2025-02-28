@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Allow scrolling on Contact page */
+html, body {
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+body.contact-page {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background: url('/users/nz/downloads/pexels-brett-sayles-2388569.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Navigation */
+nav {
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff4081;
+}
+
+nav .brand {
+  font-size: 1.5em;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+/* Main Content */
+.main-content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+/* Contact Form */
+#contact form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+  display: block;
+  width: 100%;
+  margin: 15px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+#contact form button {
+  background: #ff4081;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact form button:hover {
+  background: #e73370;
+}
+
+#form-response {
+  margin-top: 20px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #f93b67;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
