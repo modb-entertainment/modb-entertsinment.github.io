@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - M.O.D.B</title>
+  <link rel="stylesheet" href="contact-style.css">
+</head>
+<body class="contact-page">
+  <!-- Navigation -->
+  <nav>
+    <a class="brand" href="index.html">M.O.D.B</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <section id="contact">
+      <form id="contactForm" action="https://formspree.io/f/mzzdnpov" method="POST">
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-response"></div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 M.O.D.B. All rights reserved.</p>
+  </footer>
+  <script src="contact-script.js"></script>
+</body>
+</html>

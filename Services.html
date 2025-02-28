@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - M.O.D.B</title>
+  <link rel="stylesheet" href="services-style.css">
+</head>
+<body class="services-page">
+  <!-- Navigation -->
+  <nav>
+    <a class="brand" href="index.html">M.O.D.B</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <header class="services-header">
+      <h1>Services</h1>
+      <p>Your go-to studio for top-notch services</p>
+    </header>
+    <section id="services">
+      <ul>
+        <li onmouseenter="showServiceComments(this, 'Music Production')" onmouseleave="hideServiceComments(this)">
+          Music Production
+        </li>
+        <li onmouseenter="showServiceComments(this, 'Video Editing')" onmouseleave="hideServiceComments(this)">
+          Video Editing
+        </li>
+        <li onmouseenter="showServiceComments(this, 'Photography')" onmouseleave="hideServiceComments(this)">
+          Photography
+        </li>
+        <li onmouseenter="showServiceComments(this, 'Podcast Recording')" onmouseleave="hideServiceComments(this)">
+          Podcast Recording
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 M.O.D.B. All rights reserved.</p>
+  </footer>
+  <script src="services-script.js"></script>
+</body>
+</html>
